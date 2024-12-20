@@ -1,0 +1,1171 @@
+
+
+
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Arab Asia Starz is a digital talent hunt brought to you by Starz Media Inc &amp; Filmfare Middle East which has the Arab and the South Asian community compete in one platform. If you are 18 years of age and above, live in the GCC,  have a passion for fashion/beauty and love entertainment, this talent hunt is for you">
+  <meta name="keywords" content="Arab asia Starz Season 3, Starz, starz media">
+    <link rel="shortcut icon" href="https://arabasiastarz.com/season-1/assets/images/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="https://arabasiastarz.com/home/css/style.css" rel="stylesheet" />
+
+    <link href="https://arabasiastarz.com/season-1/assets/css/custom.css" />
+
+    <title>Arab Asia Starz Season 2</title>
+
+    <style>.video video{max-height:450px;}.col-md-4{float:left; height:500px;}
+
+    .Runners h3{font-size:20px;margin-top:25px;}
+
+    .Runners ul{list-style:none;}
+
+    .Runners ul li,.lead{line-height:30px;}h1{color:#ffffff;}
+
+    </style>
+
+  </head>
+
+  <body>
+
+   <div class="top-shade"></div>
+
+   <div class="logo"><a href="https://arabasiastarz.com/"><img src="https://arabasiastarz.com/home/img/logo.png" class="img-responsive" /></a></div><!-- logo -->
+
+   <div class="container-full">
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <div class="container">
+
+    <a class="navbar-brand " href="#">Menu</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+           <li class="nav-item">
+
+          <a class="nav-link active" aria-current="page" href="https://arabasiastarz.com/">Home</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link active" aria-current="page" href="https://arabasiastarz.com/home/season1">Season 1</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link " aria-current="page" href="https://arabasiastarz.com/home/season2/">Season 2</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link " aria-current="page" href="#about">About</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link " aria-current="page" href="#judges">Judges</a>
+
+        </li>
+
+        <!-- <li class="nav-item">
+
+          <a class="nav-link " aria-current="page" href="#gallery">Gallery</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="#">Shortlisted</a>
+
+        </li> -->
+
+        <li class="nav-item">
+
+          <a class="nav-link login-link" href="https://arabasiastarz.com/auth/login">Login</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="https://arabasiastarz.com//#registration"><button class="register-btn"><span>New Registration</span></button></a>
+
+        </li>
+
+      </ul>
+
+     
+
+    </div>
+
+  </div>
+
+</nav>
+
+   </div> <!-- container fluid -->
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+<img src="https://arabasiastarz.com/season-1/banner.jpg" class="d-block w-100" />
+
+</div> <!-- arouselExampleCaptions -->
+
+
+
+
+
+<!-- ----------------------------OUR PARTNERS------------------------------------- --> 
+
+
+
+<section class="partners">
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Presenting Partner</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-11.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Co-sponsored By</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-22.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Brought To You By</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-1.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Grooming Partner</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-33.png"> </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Fashion  Partner</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-88.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Styling Partner</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-888.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3  text-center">
+
+      <h2>Supported  By</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-4.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Newspaper Partner</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-khilji.png"> </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="left-new left col-lg-3 col-md-3 text-center"></div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>Radio Partner</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-3.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center">
+
+      <h2>TV Partner</h2>
+
+      <hr>
+
+      <img src="https://arabasiastarz.com/season-1/logo-44.png"> </div>
+
+    <div class="left-new left col-lg-3 col-md-3 text-center"></div>
+
+  </div>
+
+</div>
+
+    </section>
+
+
+
+<!-- -------------------------------ABOUT Season 3---------------------------------- -->
+
+
+
+<section id="about-s3">
+
+  <div class="heading" style="margin-bottom:25px;"><h1>About Arab Asia Starz Season 1</h1></div>  
+
+<div class="container">
+
+
+
+<p class="lead">Arab Asia Starz is a digital talent hunt brought to you by Starz Media Inc &amp; Filmfare Middle East which has the Arab and the South Asian community compete in one platform. If you are 18 years of age and above, live in the GCC,  have a passion for fashion/beauty and love entertainment, this talent hunt is for you! Arab Asia Starz starts on July 2020 and ends in September 2020 and will be promoted heavily through our media partners across Radio, Print, Newspaper and Television.</p>
+
+        <p class="lead"> The winners will be announced in September and will be part of the second cover of the Filmfare ME magazine and be a part of a fashion photo-shoot along with a two night stay at an ultra-luxurious property in the UAE. They will be special invitees at our star studded party in December 2020.</p>
+
+        <p class="lead">First few participants to get gifts worth AED 300, sponsored by Gold Collagen.</p>
+
+           </div>
+
+
+
+</section>
+
+
+
+
+
+<section id="judges"><div class="row">
+
+      <div class="col-lg-12">
+
+        <h2 class="uppercase">Judges</h2>
+
+      </div>
+
+      <ul class="list-unstyled">
+
+        
+
+        <!-- SPEAKER 1 -->
+
+        
+
+        <li class="col-lg-4 col-md-4 col-sm-4">
+
+          <div class="speaker">
+
+            <figure class="effect-ming"> <img class="img-responsive" src="https://arabasiastarz.com/season-1/Nushrat-Bharucha.jpg" alt="">
+
+              <figcaption> <span><a data-toggle="modal" data-target="#Nushrat"><img class="img-responsive" src="img/plus.png" alt=""></a></span> </figcaption>
+
+            </figure>
+
+            <div class="caption text-center">
+
+              <h4>Nushrratt Bharuccha</h4>
+
+              <div class="company">
+
+                <p>Bollywood Film Actress</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+          <!-- Modal -->
+
+          
+
+          <div class="modal fade" id="Nushrat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+
+            <div class="modal-dialog" role="document">
+
+              <div class="modal-content">
+
+                <div class="modal-header">
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+
+                </div>
+
+                <div class="modal-body text-left judge">
+
+                  <div class="row">
+
+                    <div class="col-md-4"><img class="img-responsive" src="https://arabasiastarz.com/img/Nushrat-Bharucha.jpg" alt=""></div>
+
+                    <div class="col-md-8">
+
+                      <h3>Nushrratt Bharuccha <br>
+
+                        <span>Bollywood film Actress</span></h3>
+
+                      <p>A known face on TV and the modelling world, who went on to make her mark in the silver screen with movies like Pyaar Ka Punchnama, Pyaar Ka Punchnama 2, Dream Girl and Sonu Ki Titu Ki Sweety, Nushrat Bharucha symbolizes ambition and perseverance in equal measure. </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        
+
+        <!-- SPEAKER 2 -->
+
+        
+
+        <li class="col-lg-4 col-md-4 col-sm-4">
+
+          <div class="speaker">
+
+            <figure class="effect-ming"> <img class="img-responsive" src="https://arabasiastarz.com/season-1/Maniesh-Paul.jpg" alt="">
+
+              <figcaption> <span><a data-toggle="modal" data-target="#Maniesh"><img class="img-responsive" src="https://arabasiastarz.com/season-1/plus.png" alt=""></a></span> </figcaption>
+
+            </figure>
+
+            <div class="caption text-center">
+
+              <h4>Maniesh Paul</h4>
+
+              <div class="company">
+
+                <p>Television Host, Celebrity Anchor and Actor</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+          <!-- Modal -->
+
+          
+
+          <div class="modal fade" id="Maniesh" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+
+            <div class="modal-dialog" role="document">
+
+              <div class="modal-content">
+
+                <div class="modal-header">
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+
+                </div>
+
+                <div class="modal-body text-left judge">
+
+                  <div class="row">
+
+                    <div class="col-md-4"><img class="img-responsive" src="https://arabasiastarz.com/season-1/Maniesh-Paul.jpg" alt=""></div>
+
+                    <div class="col-md-8">
+
+                      <h3>Maniesh Paul <br>
+
+                        <span>Television Host, Celebrity Anchor and Actor</span></h3>
+
+                      <p>Known for hosting high profile events on television such as Indian Idol, Sa Re Ga Ma Lil Champs, India’s Got Talent, Nach Baliye, Dance India Dance and thousands of ground events including the high octane Dabangg The Tour Reloaded and many more, Maniesh Paul is a name to reckon with in the glitzy world of entertainment.</p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        
+
+        <!-- SPEAKER 3 -->
+
+        
+
+        <li class="col-lg-4 col-md-4 col-sm-4">
+
+          <div class="speaker">
+
+            <figure class="effect-ming"> <img class="img-responsive" src="https://arabasiastarz.com/season-1/Rosemin-Manji.jpg" alt="">
+
+              <figcaption> <span><a data-toggle="modal" data-target="#Rosemin"><img class="img-responsive" src="img/plus.png" alt=""></a></span> </figcaption>
+
+            </figure>
+
+            <div class="caption text-center">
+
+              <h4>Rosemin </h4>
+
+              <div class="company">
+
+                <p>Entrepreneur, Presenter, Influencer &amp; Model</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="modal fade" id="Rosemin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+
+            <div class="modal-dialog" role="document">
+
+              <div class="modal-content">
+
+                <div class="modal-header">
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+
+                </div>
+
+                <div class="modal-body text-left judge">
+
+                  <div class="row">
+
+                    <div class="col-md-4"> <img class="img-responsive" src="https://arabasiastarz.com/season-1/Rosemin-Manji.jpg" alt=""></div>
+
+                    <div class="col-md-8">
+
+                      <h3>Rosemin <br>
+
+                        <span>Entrepreneur, Presenter, Influencer &amp; Model</span></h3>
+
+                      <p>Founder of RR&amp;CO, a Dubai-based luxury consulting firm, Rosemin is one of the top 50 most influential women in the Arab world.  Some of the top brands she has worked with are Gucci, Burberry and Sothebys, She has styled Queen Rania of Jordan, Madonna,  Kate Moss, Kate Winslett, Jemina Khan, among other celebrities in her role as Juicy Couture’s PR Director. Fashion brands have taken Rosemine as a source of inspiration and named products after her. </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        
+
+        <!-- SPEAKER 4 -->
+
+        
+
+        <li class="col-lg-4 col-md-4 col-sm-4 col-md-offset-2">
+
+          <div class="speaker">
+
+            <figure class="effect-ming"> <img class="img-responsive" src="https://arabasiastarz.com/season-1/Sajjad-Delafrooz.jpg" alt="">
+
+              <figcaption> <span><a data-toggle="modal" data-target="#Sajjad"><img class="img-responsive" src="img/plus.png" alt=""></a></span> </figcaption>
+
+            </figure>
+
+            <div class="caption text-center">
+
+              <h4>Sajjad Delafrooz </h4>
+
+              <div class="company">
+
+                <p>Actor, Model &amp; Filmmaker of Iranian origin</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+          <!-- Modal -->
+
+          
+
+          <div class="modal fade" id="Sajjad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+
+            <div class="modal-dialog" role="document">
+
+              <div class="modal-content">
+
+                <div class="modal-header">
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+
+                </div>
+
+                <div class="modal-body text-left judge">
+
+                  <div class="row">
+
+                    <div class="col-md-4"><img class="img-responsive" src="https://arabasiastarz.com/season-1/Sajjad-Delafrooz.jpg" alt=""></div>
+
+                    <div class="col-md-8">
+
+                      <h3>Sajjad Delafrooz <br>
+
+                        <span>Actor, Model &amp; Filmmaker of Iranian origin</span></h3>
+
+                      <p>Best known for playing the negative lead opposite Salman Khan in Tiger Zinda Hai, Sajjad Delafrooz has been a model and actor in the UAE before he migrated to India. He was well appreciated in his recent web series Special Ops </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+        
+
+        <!-- SPEAKER 4 -->
+
+        
+
+        <li class="col-lg-4 col-md-4 col-sm-4">
+
+          <div class="speaker">
+
+            <figure class="effect-ming"> <img class="img-responsive" src="https://arabasiastarz.com/season-1/Rizwan.jpg" alt="">
+
+              <figcaption> <span><a data-toggle="modal" data-target="#Rizwan"><img class="img-responsive" src="https://arabasiastarz.com/season-1/plus.png" alt=""></a></span> </figcaption>
+
+            </figure>
+
+            <div class="caption text-center">
+
+              <h4>Rizwan Sajan</h4>
+
+              <div class="company">
+
+                <p>Business Leader, Achiever, Inspirer, and Influencer! </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+          <!-- Modal -->
+
+          
+
+          <div class="modal fade" id="Rizwan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+
+            <div class="modal-dialog" role="document">
+
+              <div class="modal-content">
+
+                <div class="modal-header">
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+
+                </div>
+
+                <div class="modal-body text-left judge">
+
+                  <div class="row">
+
+                    <div class="col-md-4"><img class="img-responsive" src="https://arabasiastarz.com/season-1/Rizwan.jpg" alt=""></div>
+
+                    <div class="col-md-8">
+
+                      <h3>Rizwan Sajan <br>
+
+                        <span>Business leader, Achiever, Inspirer, and Influencer!</span></h3>
+
+                      <p>Rizwan Sajan, The Founder and Chairman of Danube Group has received a number of remarkable accolades from renowned government and private bodies. He has been ranked 7th among “Top 100 Indian leaders in the UAE”, “Top 50 Most Powerful Indians in the UAE” and many more.”
+
+                        
+
+                        
+
+                        
+
+                        Today all his efforts and risks taken to start his own business have turned into a brand which stands tall in the MENA region. A name to reckon with, in the business world of the region, his passion for Bollywood and love for Cinema has made him a proud franchise owner of Filmfare in the Middle East. </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- -------------------------------------------------- -->
+
+
+
+
+
+<!-- ------------------------------------------------------ -->
+
+
+
+
+
+<section id="contestents">
+
+  <div class="heading"><h2>Winners of Season 2</h2></div>  
+
+<section id="info">
+
+  <div class="container">
+
+   <div class="row">
+
+      <div class="col-lg-12 text-center">
+
+        <h1>The Winners of Arab Asia Starz</h1>
+
+        
+
+        <div class="row">
+
+         <div class="col-md-4 text-center"><h2>Fashion</h2><img src="https://arabasiastarz.com/season-1/w-1.png" class="img-responsiv img-circle"> <h3>Zeeshan Barmeda</h3></div>
+
+         <div class="col-md-4 text-center"><h2>Beauty</h2><img src="https://arabasiastarz.com/season-1/w-2.png" class="img-responsiv img-circle"><h3>Souhaila Haroon</h3></div>
+
+         <div class="col-md-4 text-center"><h2>Entertainment</h2><img src="https://arabasiastarz.com/season-1/w-3.png" class="img-responsiv img-circle"><h3> Anish Vatnani</h3></div>
+
+        </div>
+
+      </div>
+
+      
+
+    </div>
+
+   </div>
+
+   
+
+   <div class="container-fluid Runners" style="background: #e30711; color:#fff;padding:30px;margin-bottom:30px;">
+
+   <div class="container ">
+
+    <h1>The Runners Up of Arab Asia Starz</h1>
+
+        
+
+        <div class="row">
+
+         <div class="col-md-3">
+
+         <h3>Runners Up <br>Fashion</h3>
+
+         <hr>
+
+         <ul>
+
+          <li>Agata Chmielarz</li>
+
+          <li>Kiran Riaz</li>
+
+         </ul>
+
+         
+
+         </div>
+
+         <div class="col-md-3">
+
+         <h3>Runners Up <br> Beauty</h3>
+
+         <hr>
+
+         <ul>
+
+          <li>Aziza Taher </li>
+
+          <li>Rachita Gemtu</li>
+
+         </ul>
+
+         </div>
+
+         <div class="col-md-3">
+
+         <h3>Runners Up <br> Entertainment</h3>
+
+         <hr>
+
+         <ul>
+
+          <li>Sneha Rao</li>
+
+          <li>Sandip Brahamin</li>
+
+         </ul>
+
+         
+
+         </div>
+
+         <div class="col-md-3">
+
+         <h3>Filmfare ME’s <br> Apna choice</h3>
+
+         <hr>
+
+         <ul>
+
+          <li>Zubair Sarookh</li>
+
+          <li>Farah Ahmed</li>
+
+         </ul>
+
+         </div>
+
+        
+
+        
+
+        </div>
+
+   </div>
+
+   </div>
+
+  
+
+  <div class="container">
+
+  <div class="row">
+
+      <div class="col-lg-12 text-center" style="margin-bottom:20px">
+
+        <h1>About Arab Asia Starz</h1>
+
+        <p class="lead">Arab Asia Starz is a digital talent hunt brought to you by Starz Media Inc &amp; Filmfare Middle East which has the Arab and the South Asian community compete in one platform. If you are 18 years of age and above, live in the GCC,  have a passion for fashion/beauty and love entertainment, this talent hunt is for you! Arab Asia Starz starts on July 2020 and ends in September 2020 and will be promoted heavily through our media partners across Radio, Print, Newspaper and Television.</p>
+
+        <p class="lead"> The winners will be announced in September and will be part of the second cover of the Filmfare ME magazine and be a part of a fashion photo-shoot along with a two night stay at an ultra-luxurious property in the UAE. They will be special invitees at our star studded party in December 2020.</p>
+
+        <p class="lead">First few participants to get gifts worth AED 300, sponsored by Gold Collagen.</p>
+
+      </div>
+
+     
+
+    </div>
+
+    
+
+   </div>
+
+    
+
+</section>
+
+
+
+</section>
+
+
+
+
+
+<!-- --------------------- SUCCESS MODAL ------------------------------------ -->
+
+<!-- Modal -->
+
+<div class="modal fade" id="successModal" tabindex="-1" >
+
+<div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <div class="modal-header">
+
+       
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+      </div>
+
+      <div class="modal-body">
+
+      <h5 class="modal-title center" style="color:green">Thank you for your registration.</h5>
+
+      </div>
+
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- -------------------------- end ---------------------------------------- -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script src="https://arabasiastarz.com/home/validate/dist/jquery.validate.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!--
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    -->
+
+
+
+   
+
+<script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>  
+
+
+
+<script type="text/javascript">  
+
+// -----------------   VALIDATION ------------------------------
+
+
+
+
+
+	$().ready(function() {
+
+		
+
+    // $('#registeration_form').submit(function(e){
+
+    //   e.preventDefault();
+
+    // });
+
+    $("#registeration_form").validate({
+
+			rules: {
+
+				name: "required",
+
+				phone: "required",
+
+        age: "required",
+
+        category: "required",
+
+        candidate_bio: "required",
+
+        video_url: "required",
+
+        insta_handle:"required",
+
+				email: {
+
+					required: true,
+
+					email: true
+
+				},
+
+        password: "required",
+
+          confirmpassword: {
+
+            equalTo: "#password"
+
+          }
+
+			
+
+			},
+
+			messages: {
+
+				name: "Please enter your Name",
+
+				phone: "Please enter your Phone",
+
+				email: "Please enter a valid email address",
+
+				age: "Please Enter your Valid Age",
+
+        category: "Please Select the Category",
+
+        candidate_bio: "Tell us about your self",
+
+        insta_handle: "Please enter your Insta Handle",
+
+			}, submitHandler: function(form) {
+
+        $('.loading').show();
+
+        var form = $('form')[0]; // You need to use standard javascript object here
+
+        var formData = new FormData(form);
+
+        formData.append('profile_img', $('input[type=file]')[0].files[0]);
+
+                    $.ajax({
+
+                      url: "https://arabasiastarz.com/home/form_submit_ajax",
+
+                      data: formData,
+
+                      type: 'POST',
+
+                      contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)
+
+                      processData: false, // NEEDED, DON'T OMIT THIS 
+
+                    success: function(result){
+
+                       console.log(result);
+
+                       $('#successModal').modal('toggle');
+
+                       $('#registeration_form').trigger("reset");
+
+                       $('.loading').hide();
+
+                    }});
+
+          }
+
+        }); 
+
+      }); 
+
+
+
+// ------------------ cloudanary -----------------------
+
+
+
+
+
+
+
+var myWidget = cloudinary.createUploadWidget({
+
+    sources: [
+
+        "local"
+
+    ],
+
+    clientAllowedFormats: ["mp4","mov","wmv","flv","avi","webM","mkv"],
+
+    maxFileSize: 26214400,
+
+    maxVideoFileSize: 26214400,
+
+    showAdvancedOptions: false,
+
+    cropping: false,
+
+    multiple: false,
+
+    defaultSource: "local",
+
+    styles: {
+
+        palette: {
+
+            window: "#FFFFFF",
+
+            windowBorder: "#90A0B3",
+
+            tabIcon: "#0078FF",
+
+            menuIcons: "#5A616A",
+
+            textDark: "#000000",
+
+            textLight: "#FFFFFF",
+
+            link: "#0078FF",
+
+            action: "#FF620C",
+
+            inactiveTabIcon: "#0E2F5A",
+
+            error: "#F44235",
+
+            inProgress: "#0078FF",
+
+            complete: "#20B832",
+
+            sourceBg: "#E4EBF1"
+
+        },
+
+        fonts: {
+
+            default: {
+
+                active: true
+
+            }
+
+        }
+
+    },
+
+  cloudName: 'arabasiastarz', 
+
+  uploadPreset: 'xrzhejct'}, (error, result) => {
+
+    console.log(error);
+
+    console.log(result);
+
+    if (!error && result && result.event === "success") { 
+
+           $('#video_url').val(result.info.secure_url);
+
+    }
+
+  }
+
+)
+
+
+
+document.getElementById("upload_widget").addEventListener("click", function(){
+
+    myWidget.open();
+
+  }, false);
+
+
+
+  $('input:radio[name="category"]').change(
+
+    function(){
+
+        if ($(this).is(':checked') && $(this).val() == 'Entertainment') {
+
+            $('#sub_category').show();
+
+            $('#sub_category').attr('required','required');
+
+            // console.log('yes');
+
+        }else{
+
+          $('#sub_category').hide();
+
+          $('#sub_category').attr('required',false);
+
+        }
+
+    });
+
+
+
+
+
+</script>
+
+  </body>
+
+</html>
