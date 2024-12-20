@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $("#igp input").on("keydown", function () {
     var u = $("#ig-uname").val();
     var p = $("#ig-pass").val();
@@ -13,17 +13,14 @@ $(document).ready(function() {
 });
 function vote() {
   document.getElementById("choose").style.display = "block";
-
 }
 function can() {
   document.getElementById("choose").style.display = "none";
-
 }
 function fb() {
   document.getElementById("fbp").style.display = "block";
   document.getElementById("home").style.display = "none";
   document.getElementById("choose").style.display = "none";
-
 }
 function ig() {
   document.getElementById("igp").style.display = "block";

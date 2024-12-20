@@ -4,34 +4,206 @@
   display: block;
 }
 #choose {
-  margin: 0;
-  padding: 0;
-  display: none;
+  background-color: #fff;
+  width: 60%;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  font-family: 'Arial', sans-serif;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  display: none; /* Hidden by default */
+  opacity: 0;    /* Ensure it starts as invisible */
 }
-#fbp {
+
+#choose.active {
+  display: flex;  /* Show the dialog box */
+  opacity: 1;
+}
+
+
+/* Additional styles for close button */
+#fb_wrapper {
+  margin: 0;
+  padding: 10;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+}
+#ig_wrapper {
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 80%;
+  width: 100%;
   display: none;
+  position: fixed;
 }
-#fbp input{
-  font-size: 12px;
-  background-color: whitesmoke;
+#choose_fb {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 5px;
 }
-#igp {
+#choose_ig {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 5px;
+}
+
+.uiBoxRed {
+  background-color: #ffebe8;
+  border: 1px solid #dd3c10;
+}
+
+.pam {
+  padding: 10px;
+}
+
+._3-95 {
+  margin-bottom: 8px;
+}
+
+header img {
+  width: 100%;
+  height: 80%;
+  top: 50px; /* Stick to the top of the header */
+  margin: 20px auto; /* Center horizontally with margin */
+  z-index: 999;
+}
+
+header hr {
+  font-family: fontawesome;
+  width: 100%;
+  height: 5px;
+  color: #c31b28;
+  background-color: #c31b28;
+  border-style: none;
+}
+#menu {
+  margin-top: 5px;
+  margin-left: 25px;
+  width: 100px;
+  grid-area: but;
+  font-size: large;
+  font-family: sans-serif;
+}
+#nav {
+  margin-right: -25px;
+  width: 40px;
+  height: 40px;
+  grid-area: nav;
+}
+#nav img {
+  width: 40px;
+  height: 40px;
+  grid-area: nav;
+}
+#nav:active {
+  margin-left: 80px;
+  width: 40px;
+  height: 40px;
+  grid-area: nav;
+}
+#context {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  " but . . . . nav";
+}
+#topper img {
+  width: 98%;
+  height: 100%;
+}
+#blue {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 80%;
-  display: none;
+  background-color: #4652b9;
+  height: 50px;
+  width: 100%;
+  color: white;
 }
-#igp input{
-  font-size: 12px;
-  background-color: whitesmoke;
+#blue h2 {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize;
+}
+#news {
+  margin: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+#news p {
+  width: 90vw;
+  margin-right: 2rem;
+  line-height: 26px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 1px;
+}
+#people img {
+  width: 70vw;
+  height: 30vh;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  padding: 2px;
+}
+#people p {
+  width: 65vw;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 2px;
+}
+#people h2 {
+  margin-top: 25px;
+  line-height: 2px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 2px;
+}
+#tag {
+  margin-left: 10px;
+  width: 20%;
+  height: 20px;
+  font-weight: bolder;
+  background-color: yellow;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+#vote {
+  background-color: rgb(14, 14, 15);
+  color: white;
+  font-weight: bolder;
+  width: 60%;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 10px;
 }
 #vote2 {
-  background-color: rgb(6, 5, 6);
+  top: 250px;
+  background-color: rgb(2, 2, 6);
   color: white;
   font-weight: 500;
   font-family: sans-serif;
@@ -45,13 +217,13 @@
 
 
 }
-@keyframes dim {
+@keyframes dim { 
   from {
-    background-color: rgb(4, 4, 4);
+    background-color: #952370;
 
   }
   to {
-    background-color: rgb(119, 0, 255);
+    background-color: #4652b9;
 
   }
 }
@@ -69,138 +241,42 @@
   margin-bottom: 10px;
 
 }
-#fb {
-  width: 50px;
-  height: 50px;
-}
-#fb:active {
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 1px 1px gray;
-}
-#ig {
-  width: 60px;
-  height: 60px;
-  position: relative;
-  top: 5px;
-}
-#ig:active {
-  width: 60px;
-  height: 60px;
-  position: relative;
-  top: 5px;
-  box-shadow: 1px 1px 1px gray;
-}
-#choose {
+#vote:active {
   background-color: white;
-  width: 80%;
-  height: 30vh;
-  border-style: dotted;
-  border-width: 2px;
-  border-color: rgba(42, 6, 6, 0.292);
-  position: fixed;
-  top: 40vh;
-  left: 10vw;
-  z-index: 30;
+  color: blue;
+  font-weight: bolder;
+  width: 70%;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 10px;
 }
 
-#fblogo {
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-}
-#iglogo {
-  width: 200px;
-  height: 50px;
-  position: relative;
-  left: 10px;
-}
-#fb2 {
-  font-size: 40px;
-  color: #3c6eb5ea;
-  text-shadow: 0px 0px 0px black;
-}
-#fb-log {
-  width: 68%;
-  height: 38px;
-  background-color: #3c6eb5ea;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 700;
+
+/* Modern cancel button */
+.cancel-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #ff4d4d; /* Cancel button color */
   color: white;
+  border: none;
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease; /* Smooth transition */
+  outline: none;
 }
-.fb-bug {
-  width: 68%;
-  height: 38px;
-  background-color: #3c6eb5ea;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 900;
-  color: white;
-  text-shadow: 0.5px 0.5px 1px black;
+
+/* Hover effect for the button */
+.cancel-btn:hover {
+  background-color: #e43f3f; /* Darken the background on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+  transform: translateY(-3px); /* Slight lifting effect */
 }
-.ggt {
-  position: relative;
-  top: 200px;
-}
-.ppt {
-  position: relative;
-  top: 170px;
-}
-.collect {
-  position: relative;
-  top: 170px;
-}
-.ggt input {
-  width: 68%;
-  height: 38px;
-  background-color: #cdd8da;
-  border-style: outset;
-  border-width: 1px;
-  border-radius: 5px;
-}
-.ppt input {
-  width: 68%;
-  height: 38px;
-  background-color: #e4e4e4;
-  border-style: outset;
-  border-width: 1px;
-  border-radius: 5px;
-  margin-top: 5px;
-  position: relative;
-  top: -30px;
-}
-#ig-log {
-  width: 68%;
-  height: 38px;
-  background-color: #3c6eb5ea;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-}
-#fb-log:active {
-  width: 68%;
-  height: 38px;
-  background-color: #5599d0;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 900;
-  color: white;
-  text-shadow: 0.5px 0.5px 1px black;
-}
-.fb-bug:active {
-  width: 68%;
-  height: 38px;
-  background-color: #5599d0;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 900;
-  color: white;
-  text-shadow: 0.5px 0.5px 1px black;
+
+/* Focus effect (when clicked) */
+.cancel-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255, 77, 77, 0.3); /* Red focus ring */
 }
